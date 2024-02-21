@@ -1,0 +1,25 @@
+int num_episodes = 100000;
+int max_steps_per_episode = 81;
+int X = 250;
+int Y = 60;
+double learning_rate = 0.1;
+double discount_factor = 0.2;
+double exploration_rate = 1.0;
+double max_exploration_rate = 1.0;
+double min_exploration_rate = 0.01;
+double exploration_decay_rate = 0.01;
+
+Maximum reward: 3239
+Maximum # of visited cities: 80
+Total distance travelled: 19506
+
+5 --> 2 --> 6 --> 63 --> 8 --> 14 --> 25 --> 31 -->
+42 --> 53 --> 73 --> 80 --> 33 --> 21 --> 16 --> 15 -->
+44 --> 47 --> 34 --> 19 --> 9 --> 40 --> 58 --> 76 -->
+66 --> 10 --> 13 --> 17 --> 39 --> 18 --> 57 --> 49 -->
+65 --> 54 --> 36 --> 4 --> 56 --> 77 --> 70 --> 67 -->
+69 --> 32 --> 26 --> 30 --> 0 --> 78 --> 1 --> 20 -->
+43 --> 45 --> 37 --> 41 --> 50 --> 79 --> 62 --> 71 -->
+11 --> 55 --> 29 --> 64 --> 75 --> 74 --> 52 --> 68 -->
+27 --> 59 --> 51 --> 28 --> 24 --> 61 --> 48 --> 22 -->
+46 --> 72 --> 12 --> 3 --> 35 --> 7 --> 60 --> 23 -->
