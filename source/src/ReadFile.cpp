@@ -3,7 +3,7 @@
 void myReadFile(std::vector<std::vector<int>>& data)
 {
     // File pointer
-    std::fstream myfile("tsp-project/DistancesBetweenCities.csv"); // Change this path to the absolute path of the CSV file
+    std::fstream myfile("source/DistancesBetweenCities.csv"); // Change this path to the absolute path of the CSV file
     if (myfile.fail())
     {
         std::cerr << "Error opening CSV file" << std::endl;
