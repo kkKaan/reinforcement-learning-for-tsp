@@ -33,14 +33,15 @@ To compile and run the program, follow these steps:
 
 3. Navigate to the project directory in your terminal.
 
-4. Compile the source files using the provided Makefile:
+4. The program will read data from the "DistancesBetweenCities.csv" file (adjust path if necessary), apply the RL algorithm, and output the results.
+
+5. Compile the source files using the provided Makefile:
     ```
-    make
+    make all
     ```
 
-5. Run the executable:
+6. Run the executable:
     ```
     ./main
     ```
-
-6. The program will read data from the "DistancesBetweenCities.csv" file (adjust path if necessary), apply the RL algorithm, and output the results.
+    
