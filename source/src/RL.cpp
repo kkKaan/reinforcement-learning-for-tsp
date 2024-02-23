@@ -1,5 +1,5 @@
-#include "../headers/Helpers.h"   // Include necessary headers
-#include "../headers/Traveller.h" // Include necessary headers
+#include "../headers/Helpers.h"   
+#include "../headers/Traveller.h"
 
 #define NUM_CITIES 81 // Define the number of cities
 
